@@ -96,7 +96,7 @@ while scraping:
     print()
     print("Continue? Y/N")
     answer = input()
-    if answer.upper() != "Y":
+    if answer.upper() == "N":
         scraping = False
         print('Enter new filename: (example.txt)')
         filename = input()
